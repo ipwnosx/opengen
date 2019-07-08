@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>opengen</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-flash.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="icon" href="assets/img/icon.png">
+	</head>
+	<body>
+		<noscript>Please enable JavaScript to proceed.</noscript>
+		<div class="container">
+			<div class="jumbotron text-center">
+				<h2 class="display-4">opengen</h2>
+				<p class="lead">An open source account generator.</p>
+				<form class="text-left" id="generator">
+					<div class="form-group">
+						<label for="type">Account type:</label>
+						<select class="form-control" id="type">
+							<option value="Minecraft">Minecraft</option>
+							<option value="Spotify">Spotify</option>
+							<option value="Netflix">Netflix</option>
+						</select>
+					</div>
+					<button class="btn btn-dark btn-lg" id="generate">Generate</button>
+					<p class="pt-3">Or you can call the API using <code>/api/generate.php?type=</code></p>
+				</form>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+		<script async src="assets/js/main.js"></script>
+	</body>
+</html>
