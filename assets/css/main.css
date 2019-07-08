@@ -1,0 +1,13 @@
+body {
+	background-color: #e9ecef;
+}
+
+::selection {
+	color: #18191c;
+	background-color: #b3d4fc;
+}
+
+::-moz-selection {
+	color: #18191c;
+	background-color: #b3d4fc;
+}
