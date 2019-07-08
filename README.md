@@ -7,5 +7,4 @@ A web server and PHP.
 ## Todo
 Add captcha and API rate limiting to prevent backend spam.
 ## Donate
-`1G4zsUzBYJM4PCXV1qNrFW5DTrCyZLqoQF`
-Like what you're seeing? feel free to buy us a cup of coffee via Bitcoin 😎
+Like what you're seeing? feel free to buy us a cup of coffee via Bitcoin `1G4zsUzBYJM4PCXV1qNrFW5DTrCyZLqoQF` 😎
