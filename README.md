@@ -4,6 +4,8 @@ An open source account generator.
 `git clone https://github.com/secremecy/opengen.git` or download directly through the GitHub repository.
 ## Requirements
 A web server and PHP.
+## Preview
+https://i.imgur.com/d39eauy.png
 ## Todo
 Add captcha and API rate limiting to prevent backend spam.
 ## Donate
